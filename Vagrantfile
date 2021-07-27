@@ -30,7 +30,7 @@ end
       subconfig.vm.network "public_network", bridge: "wlp3s0", ip: "192.168.0.#{i +10}" #Altere a interface de rede para a  correta em caso de erro.
       subconfig.vm.provider "virtualbox" do |vb|
         vb.memory = 2048 # Cuidado ao aumentar os recursos aqui uma vez que eles serao multiplicados pelo numero de nodes.
-        vb.cpus = 2 # Aqui tambem
+        vb.cpus = 1 # Aqui tambem
       end
     end
   end
