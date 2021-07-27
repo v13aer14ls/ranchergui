@@ -11,7 +11,7 @@ end
     subconfig.vm.network :private_network, ip: "10.0.0.10"
     subconfig.vm.network "public_network", bridge: "wlp3s0", ip: "192.168.0.10"
     subconfig.vm.provider "virtualbox" do |vb|
-      vb.memory = 8192 
+      vb.memory = 4096 
       vb.cpus = 2
     end
   end
