@@ -15,13 +15,18 @@ Vagrant
 Virtualbox  
 
 É necessária a disponibilização de recursos de sua maquina local:  
-Master :
-  - 8GB RAM
-  - 2vCPUS
-Nodes (CADA UM):
+
+
+**Master** :
+  - 4GB RAM
+  - 2vCPUS  
+
+
+**Nodes** :
   - 2GB RAM
   - 1vCPU
-
+  
+ Por default o *VagrantFile* está configurado para criar 1 master-node e 2 nodes. Essas configurações podem ser facilmente alteradas no mesmo arquivo.
 
 
 
